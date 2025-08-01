@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROLIFE - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay">
+        <div class="loading-text">PROLIFE</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">PROLIFE</div>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#personal" class="nav-item">Personal Info</a>
+                <a href="#about" class="nav-item">About</a>
+            </nav>
+            <div class="header-controls">
+                <button class="lang-selector">
+                    <i class="fas fa-globe"></i>
+                    <span>VI</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <a href="#home" class="sidebar-item">HOME</a>
+        <a href="#personal" class="sidebar-item">INFO</a>
+        <a href="#about" class="sidebar-item">ABOUT</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Video Background -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="backround.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="hero-content">
+            <!-- Hero section chỉ hiển thị background -->
+        </div>
+        
+        <!-- Meme GIF -->
+        <div class="meme-container">
+            <img src="meme.gif" alt="Meme" class="meme-gif">
+        </div>
+    </section>
+
+    <!-- Personal Info Section -->
+    <section class="section" id="personal">        
+        <div class="personal-info">
+            <!-- Top Row: Avatar + Contact Combined, and Video -->
+            <div class="top-row">
+                <!-- Avatar + Contact Combined Card -->
+                <div class="avatar-contact-card">
+                    <div class="avatar-section">
+                        <div class="profile-container">
+                            <div class="profile-image"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-section">
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="fullName">Họ và tên:</span>
+                                <span class="info-value">Phan Công Luận</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="birthDate">Ngày sinh:</span>
+                                <span class="info-value">20/10/2005</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="hometown">Quê quán:</span>
+                                <span class="info-value">Đồng Tháp, Việt Nam</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="education">Học vấn:</span>
+                                <span class="info-value">Sinh viên Đại học</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label" data-i18n="major">Chuyên ngành:</span>
+                                <span class="info-value">Công nghệ thông tin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card -->
+                <div class="video-card">
+                    <video class="info-video" autoplay muted loop playsinline>
+                        <source src="info.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            
+            <!-- Bottom Row: Skills and Stats -->
+            <div class="bottom-row">
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h3 class="skills-title">Technical Skills</h3>
+                    
+                    <div class="skills-grid">
+                <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript / TypeScript</span>
+                                <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">React / Vue.js</span>
+                                <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js / Python</span>
+                                <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Database Design</span>
+                                <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="about-text">
+            <p>
+              Xin chào! Tôi là sinh viên năm cuối, đam mê lập trình dù chưa có nhiều kinh nghiệm. Hành trình của tôi bắt đầu từ sự tò mò về công nghệ và khao khát tạo ra những sản phẩm ý nghĩa.
+            </p>
+          
+            <h3>Mục tiêu của tôi</h3>
+            <p>
+              Tôi tin rằng công nghệ có thể giải quyết các vấn đề thực tiễn và cải thiện cuộc sống. Mỗi dòng code tôi viết đều hướng tới việc tạo ra giá trị thực sự.
+            </p>
+          
+            <h3>Những gì tôi làm</h3>
+            <p>
+              Tôi đang học và khám phá lập trình web, làm việc với các công nghệ như HTML, CSS, JavaScript và các nền tảng cơ bản. Tôi thích tham gia vào quá trình phát triển sản phẩm từ ý tưởng đến thực thi.
+            </p>
+          
+            <h3>Ngoài lập trình</h3>
+            <p>
+              Khi không học code, tôi tìm hiểu về công nghệ mới, tham gia các dự án nhỏ hoặc chia sẻ kiến thức với cộng đồng. Tôi cũng quan tâm đến thiết kế giao diện để mang lại trải nghiệm người dùng tốt hơn.
+            </p>
+          
+            <h3>Kết nối với tôi</h3>
+            <p>
+              Tôi luôn sẵn sàng học hỏi và hợp tác trong các dự án thú vị. Nếu bạn muốn trao đổi về công nghệ hoặc có ý tưởng dự án, hãy liên hệ với tôi!
+            </p>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://www.facebook.com/luanpc78" class="social-link" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook"></i>
+            <span>Facebook</span>
+        </a>
+        <a href="https://github.com/luanpc-78" class="social-link" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+        </a>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="nav-dots">
+        <div class="nav-dot active" onclick="scrollToSection('home')"></div>
+        <div class="nav-dot" onclick="scrollToSection('personal')"></div>
+        <div class="nav-dot" onclick="scrollToSection('about')"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
